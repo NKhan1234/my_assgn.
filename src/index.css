@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn1 {
+  transition: color 0.3s ease-in-out, border 0.4s ease-out;
+}
+.btn1:hover {
+  color: black;
+  border: 2px solid black;
+}
+.logo-ele {
+  transition: transform 0.3s ease-in;
+}
+.logo-ele:hover {
+  transform: scale(1.2);
+}
+.newateller {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 255, 0.377) 20%,
+    rgb(6, 155, 255) 80%
+  );
+}
