@@ -16,10 +16,10 @@ body {
   color: black;
   border: 2px solid black;
 }
-.logo-ele {
+.text-x {
   transition: transform 0.3s ease-in;
 }
-.logo-ele:hover {
+.text-x:hover {
   transform: scale(1.2);
 }
 .newateller {
